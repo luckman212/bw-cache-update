@@ -4,7 +4,7 @@
 
 ## Install
 
-#### Copy the entire line below (triple-click) and paste it into a Terminal window: 
+#### Copy the entire line below (triple-click) and paste it into a Terminal window (this assumes you have `/usr/local/bin` in your `$PATH`):
 
 ```
 curl -o /usr/local/bin/bw_cache_update.sh https://raw.githubusercontent.com/luckman212/bw-cache-update/main/bw_cache_update.sh && chmod +x /usr/local/bin/bw_cache_update.sh
@@ -24,3 +24,5 @@ You should see a bunch of output. If you get any error messages, check the follo
 ```
 curl -o ~/Library/LaunchAgents/bw-cache-update-agent.plist https://raw.githubusercontent.com/luckman212/bw-cache-update/main/bw-cache-update-agent.plist && chmod 644 ~/Library/LaunchAgents/bw-cache-update-agent.plist && launchctl load ~/Library/LaunchAgents/bw-cache-update-agent.plist
 ```
+
+#### Discussion: https://github.com/blacs30/bitwarden-alfred-workflow/issues/49
