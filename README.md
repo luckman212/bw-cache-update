@@ -1,3 +1,3 @@
 # bw-cache-update
 
-![](/reload.png)
+![](/sync.png)
