@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# https://github.com/luckman212/bw-cache-update
+
 # requires:
 # - Alfred 4
 # - Bitwarden v2 workflow [https://github.com/blacs30/bitwarden-alfred-workflow]
