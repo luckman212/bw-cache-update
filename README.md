@@ -1,6 +1,6 @@
 ![](/sync.png)
 ## bw-cache-update
-#### _a companion for https://github.com/blacs30/bitwarden-alfred-workflow so you never face the dreaded "spinner" when you urgently need a password.
+#### _a companion for https://github.com/blacs30/bitwarden-alfred-workflow so you never face the dreaded "spinner" when you urgently need a password_
 
 ## Install
 
