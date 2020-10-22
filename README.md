@@ -15,7 +15,7 @@ curl -o /usr/local/bin/bw_cache_update.sh https://raw.githubusercontent.com/luck
 bw_cache_update.sh
 ```
 You should see a bunch of output. If you get any error messages, check the following:
-- be sure you've set up your paths and variables in the Alfred workflow itself
+- be sure you've set up your paths and variables in the Alfred workflow itself (e.g.`PATH` and `BW_EXEC`)
 - make sure you've successfully logged in ( .bwauth )
 - make sure your `bw` executable is working properly
 
