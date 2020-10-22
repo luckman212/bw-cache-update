@@ -16,8 +16,8 @@ bw_cache_update.sh
 ```
 You should see a bunch of output. If you get any error messages, check the following:
 - be sure you've set up your paths and variables in the Alfred workflow itself (e.g.`PATH` and `BW_EXEC`)
-- make sure you've successfully logged in ( .bwauth )
-- make sure your `bw` executable is working properly
+- make sure you're successfully logged in / authenticated ( .bwauth )
+- make sure your `bw` CLI is installed & working properly (https://github.com/bitwarden/cli#downloadinstall)
 
 ## Automate
 #### Set up a LaunchAgent so it runs on a schedule. I provide a template that runs daily at 8:15am, but you can customize as needed. Again, copy the entire line below and paste it into a Terminal window: 
