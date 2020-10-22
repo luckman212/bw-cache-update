@@ -1,6 +1,6 @@
 ![](/sync.png)
 ## bw-cache-update
-#### _a companion for https://github.com/blacs30/bitwarden-alfred-workflow_
+#### _a companion for https://github.com/blacs30/bitwarden-alfred-workflow so you never face the dreaded "spinner" when you urgently need a password.
 
 ## Install
 
@@ -20,7 +20,7 @@ You should see a bunch of output. If you get any error messages, check the follo
 - make sure your `bw` executable is working properly
 
 ## Automate
-#### Set up a LaunchAgent to run this on a schedule so you never face the dreaded "spinner" when you urgently need a password. I provide a template that runs daily at 8:15am, but you can customize as needed. Again, copy the entire line below and paste it into a Terminal window: 
+#### Set up a LaunchAgent so it runs on a schedule. I provide a template that runs daily at 8:15am, but you can customize as needed. Again, copy the entire line below and paste it into a Terminal window: 
 ```
 curl -o ~/Library/LaunchAgents/bw-cache-update-agent.plist https://raw.githubusercontent.com/luckman212/bw-cache-update/main/bw-cache-update-agent.plist &&   chmod 644 ~/Library/LaunchAgents/bw-cache-update-agent.plist && launchctl load ~/Library/LaunchAgents/bw-cache-update-agent.plist
 ```
