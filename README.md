@@ -15,6 +15,7 @@ curl -o /usr/local/bin/bw_cache_update.sh https://raw.githubusercontent.com/luck
 bw_cache_update.sh
 ```
 If you get a dialog about access, click OK:
+
 ![](/access.png)
 
 You should see a bunch of output. If you get any error messages, check the following:
