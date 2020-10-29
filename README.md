@@ -18,7 +18,7 @@ If you get a dialog about access, click OK:
 
 ![](/access.png)
 
-You should see a bunch of output. If you get any error messages, check the following:
+You should then see a bunch of output. If you get any error messages, check the following:
 - be sure you've set up your paths and variables in the Alfred workflow itself (e.g.`PATH` and `BW_EXEC`)
 - make sure you're successfully logged in / authenticated ( .bwauth )
 - make sure your `bw` CLI is installed & working properly (https://github.com/bitwarden/cli#downloadinstall)
