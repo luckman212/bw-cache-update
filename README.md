@@ -2,6 +2,8 @@
 ## bw-cache-update
 #### _a companion for https://github.com/blacs30/bitwarden-alfred-workflow so you never face the dreaded "spinner" when you urgently need a password_
 
+### Update 11/4/2020: this is an outdated version, please see the discussion at https://github.com/blacs30/bitwarden-alfred-workflow/issues/49 to download the latest version. Once finalized I am hoping this functionality will be rolled into the main branch.
+
 ## Install
 
 #### Copy the entire line below (triple-click) and paste it into a Terminal window (this assumes you have `/usr/local/bin` in your `$PATH`):
@@ -29,4 +31,3 @@ You should then see a bunch of output. If you get any error messages, check the 
 curl -o ~/Library/LaunchAgents/bw-cache-update-agent.plist https://raw.githubusercontent.com/luckman212/bw-cache-update/main/bw-cache-update-agent.plist && chmod 644 ~/Library/LaunchAgents/bw-cache-update-agent.plist && launchctl load ~/Library/LaunchAgents/bw-cache-update-agent.plist
 ```
 
-#### Discussion: https://github.com/blacs30/bitwarden-alfred-workflow/issues/49
