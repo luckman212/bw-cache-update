@@ -203,7 +203,7 @@ case $1 in
     exit
     ;;
   -v|--setenv)
-    if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    if [[ ${BASH_SOURCE[0]} == "${0}" ]]; then
       echo "You must source the script when using this option: \`. ${0##*/} -v\`"
       exit 1
     fi
